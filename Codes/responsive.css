@@ -1,0 +1,416 @@
+@media only screen and (max-width:768px)
+{
+    #layout
+    {
+            width: 100%;
+            min-height: 100%;
+    }
+    #home
+    {
+        width: inherit;
+        height: 50%;
+        background-image: url("../Images/architect.jpg");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        margin-top: -11px;
+        z-index: 99;
+    }   
+        .header
+    {
+        z-index: 100;
+        width: 100%;
+        height:40px;
+        box-shadow: 0 5px 5px 0px gray;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: flex-start;
+        letter-spacing: 4px;
+        background-color: white;
+        transition: height 1s;
+        z-index: 100;
+    }
+    .header1
+    {
+        width: 100%;
+        height:160px;
+        box-shadow: 0 5px 5px 0px gray;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: flex-start;
+        letter-spacing: 4px;
+        background-color: white;
+        transition: height 1s;
+        z-index: 100;
+    }
+    .Lnav
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .Lnav a
+    {
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 10px 5px;
+        margin-right: auto;
+    }
+    .Lnav .br
+    {
+        margin-right: 8px;
+        font-weight: bold;
+    }
+    .Rnav
+    {
+       width: 98%;
+        margin-right: 20px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding:0;
+        margin-top: 15px;
+        margin-left: 5px;
+        
+    }
+    .Rnav1
+    {
+        width: 98%;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding:0;
+        margin-top: 18px;
+        margin-left: 5px;
+        height:50%;
+        transform: all 2s;
+        z-index: 2;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .Rnav a
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        width: auto;
+        padding: 10px 16px;
+        font-weight: 550;
+    }
+    .Lnav span li
+    {
+        display: block;
+        margin-right: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        margin-left: auto;
+        
+    }
+
+        .middletitle
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-52%,60%);
+        font-weight: 500;
+        color: white;
+        font-size: 25px;
+        letter-spacing: 3px;
+        z-index:1;
+    }
+    .middleBR
+    {
+        font-weight: bolder;
+        background-color: black;
+        opacity: 0.8;
+        padding: 10px;
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+        
+    }
+    #projects
+    {
+        width: 100%;
+        height: 1750px;
+        display: block;
+       margin-left: 0;
+    }
+        #summerhouse1 , #brickhouse2
+    {
+        background-image: url("../Images/house5.jpg");
+        width:80%;
+        height: 206px;
+        background-size: cover;
+        background-attachment: scroll;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #brickhouse1,#brickhouse2
+    {
+        margin-top: 15px;
+    }
+    #brickhouse1 , #summerhouse2
+    {
+        background-image: url("../Images/house2.jpg");
+        width:80%;
+        height: 206px;
+        background-size: cover;
+        background-attachment: scroll;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    #renovated1 , #barnhouse2
+    {
+        background-image: url("../Images/house3.jpg");
+        width:80%;
+        height: 206px;
+        background-size: cover;
+        background-attachment: scroll;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    #barnhouse1 , #renovated2
+    {
+        background-image: url("../Images/house4.jpg");
+        width:80%;
+        height: 206px;
+        background-size: cover;
+        background-attachment: scroll;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+   
+    #projects p
+    {
+        color: white;
+        background-color: black;
+        width: 120px;
+        text-align: center;
+        height: 22px;
+        position: absolute;
+        left: 0;
+        margin-top: 0;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+    #about
+    {
+        width: 100%;
+    }
+    .paragraph
+    {
+        margin-left: 40px;
+        line-height: 25px;
+        font-size: 16px;
+        width: 90%;
+    }
+    #aboutcontainer
+    {
+        width: 85%;
+        height: 1900px;
+        margin-left: 30px;
+        display: block;
+    
+    
+        
+    }
+    .card
+    {
+        width: 300px;
+        height: 453px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: thin solid gainsboro;
+        
+    }
+    #imgcard
+    {
+        width: 300px;
+        height: 215px;
+        background-image: url("../Images/team2.jpg");
+        background-size: cover;
+        filter: grayscale(80%); 
+    }
+    #imgcard2
+    {
+        width: 300px;
+        height: 215px;
+        background-image: url("../Images/team1.jpg");
+        background-size: cover;
+        filter: grayscale(80%); 
+    }
+    #imgcard3
+    {
+        width: 300px;
+        height: 215px;
+        background-image: url("../Images/team3.jpg");
+        background-size: cover;
+        filter: grayscale(80%); 
+    }
+    #imgcard4
+    {
+        width: 300px;
+        height: 215px;
+        background-image: url("../Images/team4.jpg");
+        background-size: cover;
+        filter: grayscale(80%); 
+    }
+    .bodycard
+    {
+        width: inherit;
+        height: 150px;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .name
+    {
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+    .job
+    {
+        font-size: 15px;
+        font-weight: 400;
+        color: #666666;
+    }
+    .exp
+    {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        
+    }
+    .btncard
+    {
+        width: inherit;
+        height: 40px;
+        background-color: rgba(204, 204, 204, 0.699);
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        box-sizing: border-box;
+        margin-top: 25px;
+    }
+    .btncard:hover
+    {
+        background-color:rgb(168, 164, 164);
+        cursor: pointer;
+    }
+
+    #contact
+{
+    width: 89%;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 30px;
+    position: relative;
+    padding-left: 0;
+}
+.h2contact
+{
+    margin-top: 200px;
+    padding-bottom: 10px;
+}
+#contact p
+{
+    margin-left: 10px;
+    font-size: 18px;
+}
+#form 
+{
+    width: 100%;
+    height: 310px;
+    margin-left: 10px;
+    padding-top: 0;
+}
+.form
+{
+    width: 99%;
+    height: 305px;
+    display: block;
+    margin-left: 0px;
+}
+input:not(.submit)
+{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:-20px;
+    text-indent: 12px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border: 1px solid #CCCCCC;
+}
+.submit
+{
+    background-color: black;
+    width: 135px;
+    height: 42px;
+    padding: 2px 6px;
+    border: none;
+    margin: 16px 0;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+.submit:hover
+{
+    background-color: #CCCCCC;
+    color:black;
+    font-size: 13px;
+    font-weight: 600;
+}
+#map
+{
+    width: 95%;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+#mapimg
+{
+    width: 93%;
+    height: 100%;
+    padding: 2px 16px;
+    background-image: url("../Images/map.jpg");
+   background-size: cover;
+}
+#footer
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+}
